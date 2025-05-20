@@ -134,12 +134,14 @@ footer {
 
 .div-footer{
   margin: 0 auto;
-  padding: 10px 20px 10px 20px;
+  padding: 0px 20px 0px 20px;
   
 }
 
-.div-footer li {
+.div-footer li, p {
   margin: 0 auto;
+  justify-content: center;
+  text-align: center;
   padding-bottom: 10px;
 }
 
