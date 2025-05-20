@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Estilos generales */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img{
+
+  height: 40px;
+  width: 250px;
+  display: block;
+}
+
+/* Estilos de la barra de navegacion*/
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: #fff;
+  padding: 10px 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.user-menu {
+  position: relative;
+}
+
+.user-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.user-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-menu:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilos del contenido principal (main)*/
+.main-content {
+  padding: 40px;
+}
+
+.event-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event-images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.event-images img:hover {
+  transform: scale(1.05);
+}
+
+.navegacion{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+/*Estilos del Footer*/
+
+footer {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  padding: 40px 0px 40px 0px;
+  height: 200px;
+  background-color: #ebeaea;
+
+}
+
+.div-footer{
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  
+}
+
+.div-footer li {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+
+.social-icons{
+  margin: 20px;
+}
+
+.social-icons a{
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 15px 0 10px;
+}
+
+
+
+
